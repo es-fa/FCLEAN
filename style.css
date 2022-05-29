@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cabecera{
+    width: 200px;
+
+}
+.menu{
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 0 6px 0;
+    border-radius: 5px;
+}
+.menu li {
+    list-style:none;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+}
+.menu li a{
+    color: rgb(19, 18, 18);
+    font-size: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px;
+}
+.menu a:hover{
+    background: #EC6EAD;
+    transition: .3s;
+}
+.pachecar{
+    display: inline-flex;
+}
+.logo{
+    height: 150px;
+    margin: 20px 30px;
+}
+.empresa{
+    margin: 35px 35px;
+    font-size: 100px;
+}
+.buscador{
+    margin: 80px 200px;
+    height: 30px;
+    width: 200px;
+}
+#carrito{
+    margin: 75px 1px;
+    height: 30px;
+    
+}
+.slider{
+    width: 800px;
+    height:800px;
+    overflow: hidden;
+    float: none;
+    margin: 5px 380px;
+}
+.slider ul {
+    display: flex;
+    animation: slide 20s infinite alternate ease-in-out;
+    width: 400%;
+}
+.slider li {
+    list-style: none;
+    width: 100%;
+}
+.slider img {
+    width: 50%;
+    height: 70%;
+}
+@keyframes slide {
+    0%{margin-left: 0%;}
+    15%{margin-left: 0%;}
+    
+    20%{margin-left: -100%;}
+    35%{margin-left: -100%;}
+
+    40%{margin-left: -200%;}
+    55%{margin-left: -200%;}
+
+    60%{margin-left: -300%;}
+    75%{margin-left: -300%;}
+}
+.piePagina{
+    background: black;
+    display: inline-flex;
+    width: 100%;
+}
+.piePagina h1{
+    margin: 30px 50px;
+    color: white;
+}
+.infCompra li{
+    color: white;
+    list-style: none;
+    margin: 30px 50px;
+}
+.infEmpresa li{
+    color: white;
+    list-style: none;
+    margin: 30px 50px;
+}
+.contactanos li{
+    color: white;
+    list-style: none;
+    margin: 30px 50px;
+}
